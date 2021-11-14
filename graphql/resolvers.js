@@ -1,5 +1,7 @@
+const posts = require('../data/posts.json');
+
 module.exports = {
-  hello() {
-    return 'Hello World!';
+  getPosts() {
+    return posts;
   },
 };
